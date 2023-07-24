@@ -10,6 +10,28 @@
 </head>
 
 <body>
+  <div class="container">
+    <h1>Generate Strong Password</h1>
+
+    <input type="text" placeholder="Click the button to generate a password" id="display-password"
+      class="display-password" />
+
+    <div class="generate-container">
+      <select name="passwordLength" id="password-length">
+        <option value="0" selected disabled>Select Length</option>
+        <option value="8">8</option>
+        <option value="10">10</option>
+        <option value="12">12</option>
+        <option value="18">18</option>
+        <option value="30">30</option>
+      </select>
+
+      <button onclick="randomPassword()">Generate Password</button>
+    </div>
+
+    <p id="error-info" class="error-info"></p>
+  </div>
+
   <script src="./js/main.js"></script>
 </body>
 

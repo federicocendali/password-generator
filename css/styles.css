@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: darkblue;
+}
+
+h1 {
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.display-password {
+  padding: 10px;
+  text-align: start;
+  font-size: large;
+}
+
+.generate-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.generate-container select,
+.generate-container button {
+  font-size: 1rem;
+  padding: 10px;
+  flex: 1;
+}
+
+.error-info {
+  color: red;
+  font-weight: bold;
+  background-color: white;
+  margin: auto;
+}
